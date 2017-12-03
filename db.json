@@ -1,0 +1,67 @@
+{
+  "utilisateurs": [
+    {
+      "id_utilisateur": "6dee91cf-6e66-4a62-b17e-d6e2f3153dd2",
+      "email": "mariemabilon@gmail.com",
+      "lastName": "Mabilon",
+      "firstName": "Marie"
+    },
+    {
+      "id_utilisateur": "8d978908-14a3-47b4-809c-fb0785f78f91",
+      "email": "clarabrieu@gmail.com",
+      "lastName": "Brieu-Schirar",
+      "firstName": "Clara"
+    },
+    {
+      "id_utilisateur": "722edc6a-fde1-4ea3-a886-e264cbd23af9",
+      "email": "fabien36@gmail.com",
+      "lastName": "Hillaire",
+      "firstName": "Fabien"
+    },
+    {
+      "id_utilisateur": "c9014162-86ed-4159-aa01-d1a168efe1dc",
+      "email": "claire@isen.fr",
+      "lastName": "Freud",
+      "firstName": "Claire"
+    }
+  ],
+  "produits": [
+    {
+      "id_produit": "fe1ab886-aafd-42da-9bdc-e855697f14be",
+      "name": "Guitare classique",
+      "description": "Noire laquée",
+      "price": 340,
+      "quantity": 7
+    },
+    {
+      "id_produit": "73ad43b8-9c01-41c6-b160-2fabb7464d07",
+      "name": "Guitare",
+      "description": "Electro acoustique",
+      "price": 390,
+      "quantity": 5
+    },
+    {
+      "id_produit": "e4d193ab-efdb-4d79-a6f9-c8a853eb7ff1",
+      "name": "Piano rare",
+      "description": "Piano à queue en or massif",
+      "price": 1500000,
+      "quantity": 18
+    }
+  ],
+  "commandes": [
+    {
+      "id_user": "722edc6a-fde1-4ea3-a886-e264cbd23af9",
+      "id_produit": "e4d193ab-efdb-4d79-a6f9-c8a853eb7ff1",
+      "id_command": "d423929f-ded0-466a-a8bd-ebf1e085e931",
+      "validate": true,
+      "quantity": 1
+    },
+    {
+      "id_user": "8d978908-14a3-47b4-809c-fb0785f78f91",
+      "id_produit": "fe1ab886-aafd-42da-9bdc-e855697f14be",
+      "id_command": "d8e519c8-8146-405b-b950-5496f87201bd",
+      "validate": true,
+      "quantity": 1
+    }
+  ]
+}
